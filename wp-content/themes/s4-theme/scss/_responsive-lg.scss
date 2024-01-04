@@ -1,0 +1,24 @@
+
+// Tablet Quer max width 1199px
+@include media-breakpoint-down(xl) {
+
+}
+
+// Alle iMacs dieser Welt
+@include media-breakpoint-up(xl) {
+
+}
+
+
+
+@include media-breakpoint-up(xxl) {
+	.single-konzerte .bigImg{
+		margin-top:-220px;
+	}
+}
+
+
+@include media-breakpoint-down(xxl) {
+
+}
+

@@ -1,0 +1,173 @@
+// Tablet hoch max width 991.98px
+@include media-breakpoint-down(lg) {
+
+	.py-5 {
+	    padding-top: 1.8rem !important;
+	    padding-bottom: 1.8rem !important;
+	}
+
+	.my-5 {
+	    margin-top: 1.8rem !important;
+	    margin-bottom: 1.8rem !important;
+	}
+
+	#DesktopLogo {
+    	margin-left: 30px;
+    	height:45px;
+	}
+
+	.navbar{
+		background-color: rgba(86,76,75,.9);
+	}
+
+	.navbar .navbar-collapse .navbar-nav{
+		padding-right: 0px;
+	    width: 100vw;
+	    text-align: center;
+	    background-color: rgba(86,76,75,.9);
+	    padding-left:15%;
+	    padding-right:15%;
+	    li a{
+	    	line-height:26px;
+	    }
+	    li{
+	    	border-bottom: 1px solid #716d6d;
+	    	padding: 11px  0px;
+	    }
+	}
+
+	.navbar .navbar-collapse{
+		    left: 25px;
+		    top: 68px;
+	}
+
+	blockquote h5, blockquote .h5{
+	    font-size: 19px;
+	    line-height: 36px;
+	}
+
+	section.zitat{
+		padding-left: 15%;
+	    padding-right: 15%;
+	    padding-top:20px;
+	    margin-top: 20px;
+    	margin-bottom: 20px;
+
+	    br{
+	    	display: none;
+	    }
+	}
+
+	.page-id-84 section.zitat {
+	    padding-bottom: 10px;
+	}
+
+	section.aktueller-post .col-lg-6.txtCol{
+		padding: 30px 10px;
+	}
+
+
+	.formular #wpforms-27-field_9-container input, .formular #wpforms-27-field_10-container input, .formular #wpforms-27-field_1-container input{
+		    width: 90%;
+	}
+
+	footer{
+		background-image: url(../img/baumlogo.svg);
+		background-repeat: no-repeat;
+	    padding-top: 180px;
+	    background-size: 80px;
+	    background-position: center 30px;
+
+		.logoCol{
+			display: none;
+		}
+		.col-lg-2{
+			width:25%;
+		}
+		h5, .h5 {
+	    font-size: 14px;
+		}
+
+		 p,	 a,	 p a {
+	    font-size: 12px;
+	    line-height: 18px;
+	        letter-spacing: .05rem;
+		}
+	}
+
+	.footerBottom #menu-footer-menu li a{
+		letter-spacing: 0.05rem;
+	    font-size: 13px;
+	}
+
+	section.headerbildSchmal h1, section.headerbildSchmal .h1{
+		font-size:36px;
+	}
+
+	section.headerbildSchmal {
+	    height: 370px;
+	    margin-bottom: 50px;
+	        background-size: cover;
+	}
+
+
+	.spalten2.img-left{
+		.imgCol{
+			order:2;
+		}
+	}
+	
+
+	.spalten2{
+		.zitatCol{
+			padding-top:40px;
+		}
+	}
+
+	section.tabs .nav-tabs .nav-link h2, section.tabs .nav-tabs .nav-link .h2{
+		word-wrap: break-word;
+		font-size: 12px;
+		padding-bottom: 7px;
+	}
+
+	section.zitat{
+		background-size: cover;
+	    background-position: center;
+	    padding-bottom: 50px;
+	}
+
+	blockquote h5, blockquote .h5 {
+	    font-size: 16px;
+	    line-height: 30px;
+	}
+
+	.page-id-187 section.headerbildSchmal .baum{
+		width: 220px;
+    	height: 240px;
+        right: 10%;
+	}
+
+	.grid-sizer, .grid-item{
+		width:49%;
+	}
+
+	.grid-item{
+		padding:8px;
+	}
+
+	h2, .h2{
+		    font-size: 22px;
+	}
+
+	.galleryThumb .grid-item, .galleryThumb .grid-sizer{
+		width:47%;
+	}
+
+	.single-team .zitat{
+		padding-left: 10%;
+    	padding-right: 10%;
+	}
+}
+
+
+

@@ -1,0 +1,342 @@
+// Mobile max width 768.98px
+@include media-breakpoint-up(md) {
+	.mobileHidden{
+		display: block !important;
+	}
+
+	.desktopHidden{
+		display: none !important;
+	}
+}
+@include media-breakpoint-down(md) {
+
+.grid{
+	height:auto !important;
+	
+	.grid-item{
+		position: relative !important;
+	    top: 0px !important;
+	}
+}
+
+
+	.mobileHidden{
+		display: none !important;
+	}
+
+	.desktopHidden{
+		display: block !important;
+	}
+
+	.tabs{
+
+		.card-body{
+	       background-color:transparent;
+	       padding-top: 30px;
+	       .textCol{
+	        min-height:0px !important;
+	       }
+	    }
+
+
+
+	    .card-header{
+	        background-color:transparent;
+	        border:none;
+	        border-bottom:1px solid $schwarz;
+	        padding-top: 20px;
+
+
+	    }
+
+
+	    .responsive-tabs .tab-pane{
+	        border: 0;
+	        .show{
+	            border-bottom:1px solid $schwarz;
+	            background-color: transparent;
+	            border-radius: 0px;
+	        }
+	    }
+
+	    .textCol {
+		    padding-left: 0px;
+		}
+
+		.bildCol {
+		    margin-left: 0px;
+		   height: 220px;
+		}
+
+
+    }
+
+    	.py-5 {
+	    padding-top: 1.5rem !important;
+	    padding-bottom: 1.5rem !important;
+	}
+
+	.my-5 {
+	    margin-top: 1.5rem !important;
+	    margin-bottom: 1.5rem !important;
+	}
+
+	/* typo */
+
+	p, ul, li{
+		font-size: 13px;
+    	line-height: 26px;
+    	padding-bottom: 0px;
+	}
+
+	h5, .h5{
+		font-size: 14px;
+		padding-bottom: 5px;
+		padding-top:5px;
+	}
+
+	h6, .h6 {
+    	font-size: 14px;
+	}
+
+	.txtCol{
+		h2{
+			strong{
+				font-weight:500;
+			}
+		}
+	}
+
+
+    /* Menu */
+
+	.navbar{
+		height:60px;
+		background-color:#564c4b;
+	}
+
+	.navbar .navbar-collapse .navbar-nav{
+		background-color:#564c4b;
+	}
+
+	.navbar-toggler .icon-bar {
+	    width: 32px;
+	}
+
+	#DesktopLogo {
+	    margin-left: 20px;
+	    height: 38px;
+	}
+
+	.navbar .navbar-collapse{
+		top:60px;
+	}
+
+	/* Footer */
+
+	footer{
+		.col-1{
+			/*display: none;*/
+		}
+		.col-lg-2{
+			width:50%;
+			padding-left: 20px;
+    		padding-right: 20px;
+		}
+
+		h5{
+			padding-bottom: 0px;
+    		line-height: 23px;
+		}
+	}
+
+	.footerBottom .arbor-vitae-logo2{
+		display: none;
+	}
+
+	.back-to-top{
+		right: 30px;
+	}
+
+	/* Startseite */
+
+	section.startBild .logoMitte {
+	    width: 160px;
+	    padding-bottom: 2vh;
+	}
+
+	section.startBild .btn{
+		margin-bottom: 10px;
+	}
+
+	section.aktueller-post{
+		    padding: 0px 20px;
+	}
+
+	section.aktueller-post .col-lg-6.txtCol .txt {
+	    padding-left: 30px;
+	    padding-right: 30px;
+	}
+
+	form.wpforms-form{
+		width: 85%;
+    	margin: 0 auto;
+	}
+
+	div.wpforms-container-full .wpforms-form .wpforms-field{
+		    width: 100%;
+	}
+
+	.single-post #Inhalt{
+			margin-top:50px;
+		}
+
+	/* Arbor Vitae */
+
+	section.headerbildSchmal{
+		height: 135px;
+		margin-top: 60px;
+		margin-bottom: 20px;
+	}
+
+	section.headerbildSchmal h1, section.headerbildSchmal .h1{
+		font-size:26px;
+		padding-top: 0px !important;
+	}
+
+	section.spalten2 .zitatCol h5, section.spalten2 .zitatCol .h5 {
+	    font-size: 16px;
+	    line-height: 28px;
+	}
+
+	section.spalten2 .zitatCol p {
+    	font-size: 14px;
+	}
+
+	/* Team */
+
+	section.team {
+	    padding-top: 20px;
+	}
+
+	/* Leistungen */
+
+	section.tabs .card-header h2{
+		font-size: 14px;
+		font-family:$regular;
+		color: #b4b4b4;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	    padding-bottom: 10px;
+	    padding-top: 0px;
+	    letter-spacing: 0.05rem;
+	}
+
+	section.tabs .card-header{
+		border-bottom: 1px solid #ebebeb;
+	}
+
+	div.wpforms-container-full .wpforms-form h4, h4, .h4{
+		font-size: 20px;
+	}
+
+	blockquote h5, blockquote .h5{
+		    line-height: 27px;
+	}
+
+	/* Projekte */
+
+	section.spalten2 .txtCol {
+    padding-left: 40px;
+    padding-right: 40px;
+	}
+
+	/* Kontakt */
+
+	.page-id-187 section.headerbildSchmal .baum{
+		display:none;
+	}
+
+	/* Aktuelles */
+
+	.grid-sizer, .grid-item{
+		    width: 95%;
+	}
+
+	.single-post .inhalt{
+		padding-top: 90px;
+	    padding-left: 8%;
+	    padding-right: 8%;
+	}
+
+
+	/* Single Team */
+
+	.singleTeam {
+	    margin-top: 100px;
+	}
+
+	body.single-team #Inhalt{
+
+		.textRow{
+		margin-top: 90px;
+	    padding-left: 30px;
+	    padding-right: 30px;
+	    }
+
+	    .textCol{
+	    	padding: 30px 0px;
+	    }
+
+	    h1{
+	    	font-size: 20px;
+	    }
+
+	    .pb-5 {
+		    padding-bottom: 1rem !important;
+		}
+
+		.zitat{
+			padding: 0px 10%;
+		}
+	}
+
+	.galleryThumb .grid-item, .galleryThumb .grid-sizer {
+	    width: 100%;
+	}
+
+
+
+
+
+}
+
+
+.tabs .responsive-tabs .nav-tabs {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .tabs .responsive-tabs .nav-tabs {
+        display: block;
+    }
+
+    .tabs .responsive-tabs .card {
+        border: none;
+    }
+
+    .tabs .responsive-tabs .card .card-header {
+        display: none;
+    }
+
+    .tabs .responsive-tabs .card .collapse {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .tabs .responsive-tabs .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+}

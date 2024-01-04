@@ -1,0 +1,388 @@
+
+html.flexbox{
+    margin-top:0px !important;
+}
+body.admin-bar{
+
+
+    #main-nav-container{
+        margin-top:26px;
+    }
+}
+body{
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+    main{
+        z-index:1;
+        min-height:60vh;
+    }
+
+
+}
+
+.galleryThumb{
+    padding-left:0px;
+}
+
+
+    .kreis{
+        svg{
+            width: 115px;
+            top: 20px;
+            position: absolute;
+            left: -32px;
+                top: 17px;
+        }
+
+    }
+
+
+/* Logo */
+
+#DesktopLogo {
+    margin-left: 70px;
+    background-image: url(../img/logo.svg);
+    width: 225px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 11;
+    top: 13px;
+}
+
+.navbar-andand{
+    z-index: 100;
+}
+
+
+
+
+/* Menü Toggler */
+
+.navbar-toggler{
+
+    z-index: 1001;
+    border:none;
+    margin-right: 20px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition:all 1s;
+    -o-transition: all 1s;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+
+    &:focus{
+      border-color: inherit;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      outline:none;
+    }
+
+    .icon-bar {
+        width: 34px;
+        height: 2px;
+        background-color: $weiss;
+        display: block;
+        transition: all 0.2s;
+        margin-top: 8px;
+
+    }
+
+     /* Menü Toggler X */
+
+     .icon-bar.top-bar {
+      transform: rotate(45deg);
+      transform-origin: 0%;
+      transition-delay: 0.05s;
+      margin-left: 0px;
+
+    }
+
+    .middle-bar {
+      opacity: 0;
+    }
+
+    .bottom-bar {
+      transform: rotate(-45deg);
+      transform-origin: 5px;
+      transition-delay: 0.05s;
+    }
+
+    &.collapsed .icon-bar.top-bar {
+      transform: rotate(0);
+      transition-delay: 0.05s;
+
+    }
+
+    &.collapsed .middle-bar {
+      opacity: 1;
+    }
+
+    &.collapsed .bottom-bar {
+      transform: rotate(0);
+      transition-delay: 0.05s;
+
+    }
+}
+
+header.menuShown{
+  #DesktopLogo {
+
+    }
+}
+
+
+header.weiss{
+
+}
+
+
+/* Menü */
+
+
+.navbarRow{
+    height:100vh;
+}
+
+
+
+
+
+
+.float-left{
+    float:left;
+}
+
+/* Menü */
+
+header{
+    z-index:11;
+    position:relative;
+}
+
+.navbarRow{
+    height:100vh;
+}
+
+
+.navbar{
+    padding-top:0px;
+    position: fixed;
+    background-color: $bgmenu;
+    width:100vw;
+    z-index:10;
+    height:68px;
+        margin-left: 0px;
+
+
+    .navbar-collapse{
+        
+        top: 22px;
+        left: 0px;
+        z-index: 11;
+        
+        position: absolute;
+
+
+
+          &.show{
+            animation: fadeIn linear 0.5s;
+          -webkit-animation: fadeIn linear 0.5s;
+          -moz-animation: fadeIn linear 0.5s;
+          -o-animation: fadeIn linear 0.5s;
+          -ms-animation: fadeIn linear 0.5s;
+              display: block;
+          }
+
+          &.collapsing{
+            display: none;
+          }
+
+
+        .navbar-nav{
+            float:right;
+            padding-right:30px;
+            li{
+                list-style: none;
+                &.current-menu-item{
+                    a{
+                        color:$weiss;
+                    }
+                }
+                
+
+                a{
+                    text-transform:uppercase;
+                    padding: 0 17px;
+                    color:$menuCol;
+                    font-size: 15px;
+                    font-family:$medium;
+                    text-transform:uppercase;
+                    letter-spacing: 1px;
+
+                    &:hover{
+                        text-decoration: none;
+                        color:$oliv;
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+}
+
+
+
+
+
+.float-right{
+    float:right;
+}
+
+
+
+    .btn{
+        background-color:$lila;
+        background-repeat:no-repeat;
+        background-position: 34px;
+        background-size: 12px;
+        border: none;
+        border-radius: 0px;
+        padding: 17px 48px 17px 57px;
+        font-size: 11px;
+        letter-spacing: .1em;
+        font-weight: 700;
+        text-transform: uppercase;
+        color:$weiss;
+        &:hover{
+            color:$menuCol;
+        }
+        &.outline{
+            background:transparent;
+            color:$lila;
+            border:1px solid $lila;
+            padding: 10px 27px;
+        }
+    }
+
+
+
+/* Footer */
+
+footer{
+    background-color:$bgfooter;
+
+    .col-lg-2{
+        width:20%;
+        padding-right: 30px;
+    }
+    h5{
+        color:$hfooter;
+        font-family:$regular;
+
+    }
+
+    p, a, p a{
+        font-size: 13px;
+        line-height: 20px;
+        color:$weiss;
+        font-family:$regular;
+    }
+    p a, a{
+        text-decoration:underline;
+        color:$weiss;
+    }
+
+    .arbor-vitae-logo{
+        width:70%;
+    }
+
+
+}
+
+    .footerBottom{
+        background-color:$bgfooterBottom;
+        .arbor-vitae-logo2{
+            width: 150px !important;
+            padding-top: 10px;
+            padding-left:40px;
+            padding-bottom:10px;
+        }
+
+        #menu-footer-menu{
+            list-style:none;
+            float: right;
+            padding-right: 20px;
+            padding-top: 10px;
+            li{
+                display: inline-block;
+                a{
+                color:$bgfooter;
+                text-transform:uppercase;
+                letter-spacing:1px;
+                font-size: 13px;
+                    &:hover{
+                        opacity:0.8;
+                    }
+                }
+            }
+        }
+    }
+
+.back-to-top{
+    background-image: url(../img/arrow-up-solid.svg);
+    background-repeat: no-repeat;
+    border-radius:100%;
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    border:2px solid #f4f4f4;
+    width: 60px;
+    height: 60px;
+    background-size: 18px;
+    background-position: center center;
+    &:hover{
+        background-color:$weiss;
+    }
+}
+
+.tabs{
+
+    .card, .card-header{
+        background-color:transparent !important;
+    }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+        background-color:transparent;
+    }
+
+    .nav-tabs .nav-link.active{
+        border:none;
+        background:transparent;
+        opacity:0.8;
+    }
+
+    .nav-tabs .nav-link{
+        cursor:pointer;
+    }
+
+    .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:focus-visible{
+        border:none;
+        opacity:0.8;
+    }
+    .nav-link{
+        color:$schwarz;
+        text-align:left;
+    }
+
+    .nav-tabs{
+        display: block;
+        border-bottom:none;
+    }
+
+}

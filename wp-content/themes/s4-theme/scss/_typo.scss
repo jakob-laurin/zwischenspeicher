@@ -1,0 +1,237 @@
+// typo.scss
+
+$bold               :   'Vollkorn';
+$medium             :   'tofino_medium';
+$regular             :   'tofino_regular';
+
+
+
+/* --- fonts --- */
+
+@font-face {
+  font-family: 'tofino_bold';
+  src: url("../fonts/tofinopersonal-bold-webfont.woff2") format("woff2"), url("../fonts/tofinopersonal-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'tofino_regular';
+  src: url("../fonts/tofinopersonal-regular-webfont.woff2") format("woff2"), url("../fonts/tofinopersonal-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'tofino_medium';
+  src: url("../fonts/tofinopersonal-medium-webfont.woff2") format("woff2"), url("../fonts/tofinopersonal-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/* vollkorn-regular - latin */
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/vollkorn-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/vollkorn-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/vollkorn-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/vollkorn-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/vollkorn-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/vollkorn-v20-latin-regular.svg#Vollkorn') format('svg'); /* Legacy iOS */
+}
+/* vollkorn-500 - latin */
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/vollkorn-v20-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/vollkorn-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/vollkorn-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/vollkorn-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/vollkorn-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/vollkorn-v20-latin-500.svg#Vollkorn') format('svg'); /* Legacy iOS */
+}
+body {
+  font-family: "tofino_regular"; }
+
+
+
+
+html {
+    font-size: 70%;
+}
+
+a{
+    color:$schwarz;
+    text-decoration:none;
+    &:hover{
+        color:$schwarz;
+    }
+}
+
+p, ul, li{
+    font-size: 1.30rem;
+    padding-bottom: 5px;
+    color: $grau;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+
+body{
+    font-family:$regular;
+    font-size: 1.30rem;
+    line-height: 2.2rem;
+}
+
+h1, .h1{
+    font-family:$bold;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 0px;
+}
+
+h2, .h2{
+    font-family:$bold;
+    font-weight: normal;
+    font-size: 26px;
+    text-transform: none;
+    padding-bottom: 14px;
+    padding-top: 10px;
+    color: #564c4b;
+    letter-spacing: 0px;
+    strong{
+      font-weight:500;
+    }
+}
+
+h2#breadcrumbs{
+  font-family:$regular;
+      font-size: 13px;
+    padding-left: 25px;
+    margin-top: 10px;
+    span.breadcrumb_last{
+      color:#818181;
+    }
+    a:hover{
+      color:#818181;
+    }
+}
+
+h3, .h3{
+    font-size:1.4rem;
+    font-family:$bold;
+    text-transform:uppercase;
+        letter-spacing: 0.03rem;
+}
+
+div.wpforms-container-full .wpforms-form  h4, h4, .h4{
+    font-family: $regular;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h5, .h5{
+    font-size: 16px;
+    color: $dunkellila;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+
+h6{
+  font-size: 17px;
+    font-family: $bold;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: normal;
+}
+
+blockquote p{
+    font-family:$light;
+    font-size: 2.3rem;
+    line-height: 3.5rem;
+}
+
+blockquote h5{
+        font-style: italic;
+    font-size: 24px;
+    font-family: $bold;
+    color:$dunkellila;
+        line-height: 42px;
+}
+.navbar-collapse.show .kontakt{
+    h4{
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+     h3{
+        letter-spacing: 0.05rem;
+        padding-bottom: 0.5rem;
+        font-family:$medium;
+    }
+    p{
+        font-size:1.2rem;
+        font-family:$medium;
+        letter-spacing: 0.08rem;
+         line-height: 2.6rem;
+     }
+ }
+
+
+footer{
+        padding-top: 70px;
+        padding-bottom: 60px;
+    p{
+        font-size:1.2rem;
+        font-family:$medium;
+        letter-spacing: 0.08rem;
+         line-height: 2rem;
+            &.klein{
+                font-size:0.85rem;
+                    line-height: 1.7rem;
+                    font-family:$regular;
+            }
+    }
+    p a, a{
+        color:$schwarz;
+        text-decoration:none;
+        &:hover{
+            color:$schwarz;
+            font-weight:bold;
+        }
+    }
+
+    h4,.h4{
+        padding-top: 14px;
+        padding-bottom: 7px;
+
+    }
+    h3, .h3{
+        letter-spacing: 0.05rem;
+        padding-bottom: 0.5rem;
+    }
+
+
+}
+
+form{
+    input::placeholder{
+        color:$schwarz;
+    }
+    input{
+        margin-left: 20px;
+    }
+
+}
+
+p.italic{
+    font-style:italic;
+}

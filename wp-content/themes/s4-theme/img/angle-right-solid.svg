@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="225px" height="386px" viewBox="0 0 225 386" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>angle-right-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="angle-right-solid" fill="#FFFFFF">
+            <path d="M215.6,170.4 C228.1,182.9 228.1,203.2 215.6,215.7 L55.6,375.7 C43.1,388.2 22.8,388.2 10.3,375.7 C-2.2,363.2 -2.2,342.9 10.3,330.4 L147.7,193 L10.4,55.6 C-2.1,43.1 -2.1,22.8 10.4,10.3 C22.9,-2.2 43.2,-2.2 55.7,10.3 L215.7,170.3 L215.6,170.4 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

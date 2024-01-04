@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="24px" viewBox="0 0 12 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0001 12 0.0001 12 24 0 24"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-1150.000000, -103.000000)">
+            <g id="ico-fb" transform="translate(1150.000000, 103.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M3,8.0001 L0,8.0001 L0,12.0001 L3,12.0001 L3,24.0001 L8,24.0001 L8,12.0001 L11.642,12.0001 L12,8.0001 L8,8.0001 L8,6.3331 C8,5.3781 8.192,5.0001 9.115,5.0001 L12,5.0001 L12,0.0001 L8.192,0.0001 C4.596,0.0001 3,1.5831 3,4.6151 L3,8.0001 Z" id="Fill-1" fill="#000000" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
